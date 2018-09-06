@@ -12,12 +12,16 @@ body {
   height: 26px;
   padding: 0px;
   border: 0px;
+  font-size: 16px !important;
 }
 .common-icon-button > span {
   height: 26px;
   width: 26px;
   line-height: 26px;
   font-size: 14px;
+}
+.common-icon-button .anticon {
+  vertical-align: -0.27em;
 }
 .common-splitter {
   width: 100%;
