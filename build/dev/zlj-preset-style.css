@@ -391,6 +391,22 @@ body {
   align-items: center;
   background: whitesmoke;
 }
+/* mkicon */
+.mkicon--primary > svg:hover {
+  cursor: pointer;
+}
+.mkicon--showy > svg:hover {
+  cursor: pointer;
+}
+.mkicon--softly > svg:hover {
+  cursor: pointer;
+}
+.mkicon--normal > svg:hover {
+  cursor: pointer;
+}
+.mkicon--disabled > svg:hover {
+  cursor: not-allowed;
+}
 /* 简单列表 */
 .simple-list {
   width: 100%;
